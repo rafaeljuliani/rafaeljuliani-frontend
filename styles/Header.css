@@ -1,0 +1,41 @@
+.LinkHeader, .LinkHeader:visited, .LinkHeader:active {
+
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 3px;
+    transition: background-color .8s;
+    text-decoration: none;
+
+}
+
+.LinkHeader:hover {
+
+    background-color: #0088ff;
+
+}
+
+.cabecalho {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #50514f;
+    width: 100%;
+    box-shadow: 0px 2px 3px #666666;
+    padding: 5px 0px;
+
+}
+
+.SelecionadoSite {
+
+    text-shadow: 0 0 15px #fff;
+}
+
+.ContainerMenu {
+
+    width: 80%;
+  
+  }

@@ -1,0 +1,202 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #cacaca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+
+.grid {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 92%;
+  margin-top: 3rem;
+}
+
+.card {
+
+  width: 40%;
+  margin: 1rem;
+  padding: 2%;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0088ff;
+  border-color: #0088ff;
+}
+
+.card h3, .cardPostUnico h3, .cardPostUnico h2, .card h2, .card h1, .cardPostUnico h1 {
+  margin: 0 0 1rem 0;
+  font-size: 1.85rem;
+  color: #50514f;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.cardPostUnico h2, .cardPostUnico h3 {
+
+  margin: 55px 0px 30px 0px;
+
+}
+
+.card p, .cardPostUnico p {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #50514f;
+}
+
+.card .data, .cardPostUnico .data {
+
+  margin: 0 0 15px 15px;
+  font-size: 0.75rem;
+  line-height: 1;
+  color: #50514f;
+
+}
+
+.card .conteudo p, .cardPostUnico .conteudo p{
+
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+
+}
+
+.card .thumb{
+
+  float: left;
+  margin: 0 15px 15px 0;
+  width: 45%;
+  min-width: 250px;
+  max-width: 300px;
+  height: auto;
+
+}
+
+.cardPostUnico .capa {
+
+  float: left;
+  margin: 0 15px 15px 0;
+  width: 45%;
+  min-width: 250px;
+  max-width: 450px;
+  height: auto;
+
+}
+
+.cardPostUnico table {
+
+  margin: 20px auto;
+
+}
+
+.card .conteudo a, .cardPostUnico .conteudo a {
+
+  color: #0088ff;
+  text-decoration: underline;
+
+}
+
+
+
+.cardPostUnico {
+
+  width: 80%;
+  margin: 1rem;
+  padding: 2%;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+}
+
+
+
+.logo {
+  width: 50%;
+  max-width: 960px;
+  min-width: 300px;
+  height: auto;
+  max-height: 100vh;
+  margin-top: 30px;
+}
+
+.preto {
+
+  color: #444;
+
+}
+
+@media (max-width: 910px) {
+  .card {
+
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
+  .grid {
+
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .cardPostUnico {
+
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+}
