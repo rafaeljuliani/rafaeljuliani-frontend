@@ -104,7 +104,7 @@ export default function Post({post}) {
 
 export async function getStaticPaths() {
     
-    const res = await fetch('http://localhost:1337/posts')
+    const res = await fetch('https://rafaeljuliani-backend.herokuapp.com/posts')
     const posts = await res.json()
   
    
@@ -117,7 +117,7 @@ export async function getStaticPaths() {
 export async function getStaticProps(ctx) {
    
 
-    const res = await fetch(`http://localhost:1337/posts?url=${ctx.params.post}`)
+    const res = await fetch(`https://rafaeljuliani-backend.herokuapp.com/posts?url=${ctx.params.post}`)
     const post = await res.json()
   
     

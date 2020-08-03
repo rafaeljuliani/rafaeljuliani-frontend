@@ -23,7 +23,7 @@ export default function Home() {
   
     axios({
 
-      url: 'http://localhost:1337/posts',
+      url: 'https://rafaeljuliani-backend.herokuapp.com/posts',
       method: 'get',
       
     }).then((result) => { 
